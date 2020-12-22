@@ -1,0 +1,60 @@
+
+.chat_window{
+    height: 85vh;
+    width: 70vw;
+    background-color: #ECF3ED;
+    margin-left: 205px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fixedChat{
+      display: flex;
+  }
+
+  .chatSymbol{
+      font-size: 35px;
+      margin: 15px;
+  }
+
+.chat_title{
+    font-family:sans-serif;
+    font-size: 30px;
+    margin: 10px;
+} 
+
+.textInput{
+    display: flex;
+    height: 10vh;
+    width: 70vw;
+    background-color:white;
+    border-radius: 40px;
+}
+
+.cameraIcon{
+    font-size: 39px;
+    margin-left: 26px;
+    margin-top: 11px;
+    color: darkgray;
+}
+
+input{
+    font-size: 23px;
+    width: 58vw;
+    margin-left: 2vw;
+    border: none;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.sendIcon{
+    font-size: 39px;
+    margin-top: 11px;
+    color: darkgray;
+    cursor: pointer;
+}
