@@ -24,7 +24,7 @@ function Messages() {
         const interval = setInterval(() => {
             if(arr.length === 7)
             {
-                alert("reached");
+                //alert("reached");
                 arr.length=0;
                 //clearInterval(interval);
             }
