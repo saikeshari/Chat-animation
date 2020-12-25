@@ -31,7 +31,7 @@ function Messages() {
             console.log(messages.messages[arr.length].messageText + " " + arr.length);
             setArray(arr => [...arr, messages.messages[arr.length]]);
             arr.length+=1;
-      }, 1000);
+      }, 1500);
       
         return () => clearInterval(interval);
       });
@@ -41,7 +41,7 @@ function Messages() {
         element.scrollTop = element.scrollHeight;
     }
 
-    setInterval(updateScroll,1000);
+    setInterval(updateScroll,500);
 
     // function addMessage(e) {
     //     document.querySelector(".messageWindow").innerHTML += "<div className={Show? "messageBefore": "messageAfter"}>
