@@ -1,0 +1,46 @@
+{
+    "messages" : [
+        {
+            "pic" : "",
+            "messageText" : "Of Course! The cab will be here in ! minute",
+            "status" : "received",
+            "day" : "2 days ago"
+        },
+        {
+            "pic" : "img1",
+            "messageText" : "Hanna Honda Civic",
+            "status" : "received",
+            "day" : "2 days ago"
+        },
+        {
+            "pic" : "",
+            "messageText" : "Thank You",
+            "status" : "sent",
+            "day" : "2 days ago"
+        },
+        {
+            "pic" : "",
+            "messageText" : "Yeah! forgot to change my address to home",
+            "status" : "sent",
+            "day" : "8:15 pm"
+        },
+        {
+            "pic" : "",
+            "messageText" : "Yeah we found them under ur bed. Send them to ur home address",
+            "status" : "received",
+            "day" : "8:16 pm"
+        },
+        {
+            "pic" : "",
+            "messageText" : "That would be great. Thank You",
+            "status" : "sent",
+            "day" : "8:16 pm"
+        },
+        {
+            "pic" : "img2",
+            "messageText" : "Small Package Address",
+            "status" : "received",
+            "day" : "8:17 pm"
+        }
+    ]
+}

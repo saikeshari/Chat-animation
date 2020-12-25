@@ -6,6 +6,7 @@ import Messages from './Messages.js';
 import './ChatWindow.css';
 
 function ChatWindow() {
+    
     return (
         <div>
             <div class="chat_window">
@@ -14,11 +15,7 @@ function ChatWindow() {
                     <span class="chat_title">CHAT</span>    
                 </div>
                 <Messages/> 
-                <div className="textInput">
-                    <FontAwesomeIcon className="cameraIcon" icon={faCamera} />
-                    <input type="text" />
-                    <FontAwesomeIcon className="sendIcon" type="submit" icon={faPaperPlane}/>
-                </div>
+                
             </div>
         </div>
     )

@@ -4,41 +4,88 @@
     height: 64vh;
     width: 69.5vw;
     border: none;
-    overflow: auto;
+    /* overflow:auto; */
+    /* padding-left: 20px; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    overflow-wrap: anywhere;
+}
+
+@keyframes messageBox{
+    from{width: 2vw;}
+    to{width: 10vw;}
+}
+
+.message1{
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* opacity: 0; */
+    content: "";
+    width: 10vw;
+    overflow-wrap: anywhere;
+    min-height: 140px;
+    background-color: white;
+    animation: messageBox 0.5s;
 }
 
 .messageBefore:nth-of-type(2n+1){
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* opacity: 0; */
     content: "";
+    overflow-wrap: anywhere;
     width: 2vw;
-    height: 200px;
+    min-height: 140px;
     background-color: white;
 }
 
 .messageAfter:nth-of-type(2n+1){
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* opacity: 1; */
     content: "sai";
-    width: 10vw;
-    height: 200px;
+    overflow-wrap: anywhere;
+    width: 10vw;    
+    min-height: 140px;
     background-color: white;
     transition:0.5s ease-out;
 }
 
 .messageBefore:nth-of-type(2n)
 {
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
     align-self: flex-end;
     content: "sai";
     width: 2vw;
-    height: 200px;
+    min-height: 140px;
     background-color: white;
 }
 
 .messageAfter:nth-of-type(2n)
 {
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
     align-self: flex-end;
     content: "sai";
     width: 10vw;
-    height: 200px;
+    min-height: 140px;
     background-color: white;
     transition:0.5s ease-out;
+}
+
+@keyframes messageText1{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.messageText1{
+    animation: messageText 0.5s;
 }
 
 .messageTextBefore{
@@ -47,5 +94,46 @@
 
 .messageTextAfter{
     opacity: 1;
-    transition:all 0.5s ease-in;
+}
+
+
+.textInput{
+    display: flex;
+    height: 10vh;
+    width: 70vw;
+    background-color:white;
+    border-radius: 40px;
+}
+
+.cameraIcon{
+    font-size: 39px;
+    margin-left: 26px;
+    margin-top: 11px;
+    color: darkgray;
+}
+
+input{
+    font-size: 23px;
+    color: gray;
+    width: 58vw;
+    margin-left: 2vw;
+    border: none;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.sendIcon{
+    font-size: 39px;
+    margin-top: 11px;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.messageTime{
+    margin-top: 5px;
+    font-size: 15px;
+    color: gray;
 }
